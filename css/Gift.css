@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Baloo 2', cursive;
+}
+
+#Gift .container .row .col-12 img{
+    width: 350px;
+    height:350px;
+    animation: Gift-moves 1s linear infinite;
+}
+
+@keyframes Gift-moves{
+    from{
+    padding-top: 30px;
+    }
+    to{
+    padding-bottom: 30px;
+    }
+}
+
+
+#Gift .container .row .col-12 p{
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#Gift .container .row .col-12 button{
+    background-color: #019a8f;
+    color: white;
+}

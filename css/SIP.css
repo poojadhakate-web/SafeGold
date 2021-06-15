@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Baloo 2', cursive;
+}
+
+#SIP .container .row .col-lg-10 img{
+width: 350px;
+height: 350px;
+animation: moves-invest 2s linear infinite;
+}
+
+@keyframes moves-invest{
+    from{
+    padding-top: 30px;
+    }
+    to{
+    padding-bottom: 30px;
+    }
+}
+
+#SIP .container .row .col-lg-10 button{
+    background-color:#019a8f;
+    color: white;
+}

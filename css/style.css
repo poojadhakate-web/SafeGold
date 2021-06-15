@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.5s ease-in-out;
+    font-family: 'Baloo 2', cursive;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+.navbar .navbar-toggler {}
+
+.navbar .navbar-brand {
+    font-size: 1.7rem;
+    color: rgb(206, 162, 18);
+}
+
+.navbar .navbar-brand:hover {
+    color: rgb(206, 162, 18);
+}
+
+.navbar .collapse ul li a {
+    font-size: 1.2rem;
+    margin: 0 .5rem;
+}
+
+.navbar .collapse ul li:hover {
+    background-color: rgb(243, 230, 211);
+    border-radius: 30px;
+    color: rgb(206, 162, 18);
+}
+
+.navbar .collapse ul li a:hover {
+    color: rgb(206, 162, 18);
+}
+
+.navbar .navbar-nav .nav-item .nav-link i {
+    display: none;
+    /* visibility: hidden; */
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover i,
+.navbar .navbar-nav .nav-item .nav-link:focus i {
+    display: inline-block;
+    /* visibility: visible; */
+    color: rgb(206, 162, 18);
+}
+
+/* Main start */
+/* section hero start */
+h3 {
+    color: #01bab3;
+}
+
+.jumbotron {
+    background-image: linear-gradient(90deg, #019a8f, #01bab3);
+}
+
+.jumbotron button {
+    color: rgb(206, 162, 18);
+}
+
+.card-header h5 {
+    color: black;
+}
